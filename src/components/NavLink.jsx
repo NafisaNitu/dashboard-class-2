@@ -1,20 +1,14 @@
-import React from 'react'
 import { Link } from 'react-router'
+import { DynamicIcon } from 'lucide-react/dynamic';
 
-function NavLink({
-    name,
-    path,
-    icon,
-    color
-}) {
+
+const NavLink = ({name, path, icon, color}) => {
   return (
-    <>
         <li className='flex gap-4 items-center'>
-            {icon}
-            <Link to={path} className={color}>{name}</Link>
+            <DynamicIcon name={icon} color={color} size={20} />                
+            <Link to={path}>{name}</Link>
         </li>
-    </>
-  )
-}
+  );
+};
 
 export default NavLink

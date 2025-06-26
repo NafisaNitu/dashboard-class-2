@@ -5,6 +5,8 @@ function DataTable() {
   return (
     <>
         <DataTableHeader />
+        body...
+
     </>
   )
 }
