@@ -14,21 +14,21 @@ function Navbar() {
         {
             id: 2,
             name: "About",
-            path: "/about",
+            path: "about",
             icon: "circle-question-mark",
             color: "black"
         },
         {
             id: 3,
             name: "Books",
-            path: "/books",
+            path: "books",
             icon: "book",
             color: "black" 
         },
         {
             id: 4,
             name: "Contact",
-            path: "/contact",
+            path: "contact",
             icon: "phone",
             color: "Black"
         },
