@@ -2,14 +2,14 @@ import React from 'react'
 import { FaFilter } from "react-icons/fa6";
 import Searchbar from './Searchbar';
 
-function DataTableHeader() {
+function DataTableHeader({setBooks, allBooks}) {
   return (
     <div className='flex justify-between items-center'>
         <div className="flex gap-4 items-center mt-4">
           <div className='shadow-sm bg-white border rounded p-3'>
             <FaFilter />
           </div>
-          <Searchbar bgColor={true} />
+          <Searchbar setBooks={setBooks} allBooks={allBooks} bgColor={true} />
         </div>
           
         <div>

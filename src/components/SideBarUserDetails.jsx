@@ -27,7 +27,7 @@ function SideBarUserDetails() {
           <NavLink name="Settings" path="/settings" icon={userDetails.icon1} />
         </div>
 
-        <div className='text-red-500'>
+        <div className='text-red-600'>
           <NavLink name="Logout" path="/logout" color={userDetails.color} icon={userDetails.icon2}  />
         </div>
     </div>
