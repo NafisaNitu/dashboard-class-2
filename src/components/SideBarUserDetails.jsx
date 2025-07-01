@@ -7,6 +7,9 @@ const userDetails = {
   name: "Sara Kely",
   img: "/src/images/1.jpeg",
   role: "Admin",
+  icon1: "settings",
+  icon2: "log-out",
+  color: "red",
 }
 
 function SideBarUserDetails() {
@@ -21,11 +24,11 @@ function SideBarUserDetails() {
             </div>
         </div>
         <div>
-          <NavLink name="Settings" path="/settings" icon={<CiSettings size={20} />} />
+          <NavLink name="Settings" path="/settings" icon={userDetails.icon1} />
         </div>
 
-        <div>
-          <NavLink name="Logout" path="/logout" color="text-red-600" icon={<IoLogOutOutline color='red' size={20} />}  />
+        <div className='text-red-500'>
+          <NavLink name="Logout" path="/logout" color={userDetails.color} icon={userDetails.icon2}  />
         </div>
     </div>
 

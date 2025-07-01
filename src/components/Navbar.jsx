@@ -15,7 +15,7 @@ function Navbar() {
             id: 2,
             name: "About",
             path: "/about",
-            icon: "book",
+            icon: "circle-question-mark",
             color: "black"
         },
         {
@@ -23,14 +23,14 @@ function Navbar() {
             name: "Books",
             path: "/books",
             icon: "book",
-            color: "black"
+            color: "black" 
         },
         {
             id: 4,
             name: "Contact",
             path: "/contact",
             icon: "phone",
-            color: "gray"
+            color: "Black"
         },
     ]
     

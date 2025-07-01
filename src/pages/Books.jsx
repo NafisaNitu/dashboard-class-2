@@ -7,8 +7,6 @@ function Books() {
       
       <DataTable />
 
-      BODY...
-
     </div>
   )
 }
