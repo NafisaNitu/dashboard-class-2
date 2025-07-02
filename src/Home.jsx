@@ -1,9 +1,14 @@
+import BestBooks from "./frontend/home/BestBooks"
+import FavouriteBook from "./frontend/home/FavouriteBook"
+import HeroSection from "./frontend/home/HeroSection"
 
 function Home() {
 
   return (
     <>
-     <h1>Welcome Home</h1>
+     <HeroSection />
+     <BestBooks />
+     <FavouriteBook />
     </>
   )
 }
