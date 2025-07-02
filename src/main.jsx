@@ -8,6 +8,7 @@ import About from './pages/About';
 import Books from './pages/Books.jsx'
 import Contact from './components/Contact.jsx'
 import FrontEndLayout from './layout/FrontEndLayout.jsx'
+import Shop from './Shop.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<FrontEndLayout />}>
           <Route index element={<Home />} />
+          <Route path='/shop' element={<Shop />} />
         </Route>  
 
         <Route path='/admin' element={<Layout />}>

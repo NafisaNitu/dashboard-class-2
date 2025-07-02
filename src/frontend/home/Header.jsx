@@ -1,6 +1,7 @@
 import React from 'react'
 import FlexItemsCenter from '../../components/FlexItemsCenter'
 import { BiBell } from 'react-icons/bi'
+import { Link } from 'react-router'
 
 function Header() {
   return (
@@ -13,10 +14,10 @@ function Header() {
                 </FlexItemsCenter>
             
             <FlexItemsCenter className='gap-5'>
-                <ul className='flex items-center gap-5'>
-                  <li><a href="">Home</a></li>
+                <ul className='sm:flex hidden items-center gap-5'>
+                 <li><Link to="/">Home</Link></li>
                   <li><a href="">About </a></li>
-                  <li><a href="">Shop</a></li>
+                  <li><Link to="/shop">Shop</Link></li>
                   <li><a href="">Contact</a></li>
                 </ul> 
                 <BiBell size={20} />

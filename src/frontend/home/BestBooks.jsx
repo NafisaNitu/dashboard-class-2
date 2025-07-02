@@ -3,10 +3,10 @@ import FlexItemsCenter from '../../components/FlexItemsCenter'
 
 function BestBooks() {
   return (
-    <section className='py-20 px-12'>
+    <section className='sm:py-20 py-4 px-12'>
         <div className='max-w-7xl mx-auto'>
              <FlexItemsCenter className='justify-center py-4'>
-                <h2 className='text-5xl font-bold pb-12'>Our Best Picks</h2>
+                <h2 className='sm:text-5xl text-2xl font-bold sm:pb-12 pb-4'>Our Best Picks</h2>
              </FlexItemsCenter>
 
             <div className='grid grid-cols-1 md:grid-cols-4 gap-2'>
