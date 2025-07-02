@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 
 function Header() {
   return (
-    <section className='bg-[url(assets/header.png)] min-h-16 bg-center bg-black px-5 py-2'>
+    <section className="bg-[url('/assets/header.png')] min-h-16 bg-center bg-black px-5 py-2">
         <div className='max-w-7xl mx-auto text-white'>
             <FlexItemsCenter className='justify-between'>
                 <FlexItemsCenter>
