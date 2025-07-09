@@ -15,6 +15,7 @@ function Header() {
             
             <FlexItemsCenter className='gap-5'>
                 <ul className='sm:flex hidden items-center gap-5'>
+                 <li><Link to="/admin/books">Dashboard</Link></li>
                  <li><Link to="/">Home</Link></li>
                   <li><a href="">About </a></li>
                   <li><Link to="/shop">Shop</Link></li>
