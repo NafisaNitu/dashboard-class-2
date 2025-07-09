@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DataTableHeader from './DataTableHeader';
 import DataTableBody from './DataTableBody';
-import DataTableFooter from './DataTableFooter';
+// import DataTableFooter from './DataTableFooter';
 import { useSelector } from 'react-redux';
 
 
@@ -12,7 +12,7 @@ function DataTable() {
         <DataTableHeader />
         <DataTableBody books={filterBooks} />
 
-        <DataTableFooter />
+        {/* <DataTableFooter /> */}
     </div>
   )
 }

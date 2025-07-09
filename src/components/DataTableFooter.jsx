@@ -2,8 +2,9 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import React from 'react'
 
 function DataTableFooter() {
+
   return (
-    <div className='absolute left-0 bottom-0 w-full bg-gray-100/60 py-6 px-5'>
+    <div className=''>
         <div className="flex justify-between items-center">
 
             <p>1-10 of 97</p>

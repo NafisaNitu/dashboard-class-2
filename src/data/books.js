@@ -15,7 +15,7 @@ export default [
         description: "Book 2 description",
         author: "John Doe",
         status: "Available",
-        price: "10.00",
+        price: "200.00",
         offerPrice: "5.00",
         bgColor: "bg-gray-100"
     },
@@ -109,5 +109,95 @@ export default [
         offerPrice: "5.00",
         bgColor: "bg-white"
     },
+    {
+        id: 12,
+        name: "Book 12",
+        description: "Book 12 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-gray-100"
+    },
+    {
+        id: 13,
+        name: "Book 13",
+        description: "Book 13 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-white"
+    },
+    {
+        id: 14,
+        name: "Book 14",
+        description: "Book 14 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-gray-100"
+    },
+    {
+        id: 15,
+        name: "Book 15",
+        description: "Book 15 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-white"
+    },
+    {
+        id: 16,
+        name: "Book 16",
+        description: "Book 16 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-gray-100"
+    },
+    {
+        id: 17,
+        name: "Book 17",
+        description: "Book 17 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-white"
+    },
+    {
+        id: 18,
+        name: "Book 18",
+        description: "Book 18 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-gray-100"
+    },
+    {
+        id: 19,
+        name: "Book 19",
+        description: "Book 19 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-white"
+    },
+    {
+        id: 20,
+        name: "Book 20",
+        description: "Book 20 description",
+        author: "John Doe",
+        status: "Available",
+        price: "10.00",
+        offerPrice: "5.00",
+        bgColor: "bg-gray-100"
+    }
     
 ]
