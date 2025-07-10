@@ -7,6 +7,7 @@ const initialState = {
     searchQuery: '',
     currentPage: 1,
     itemsPerPage: 10
+
 }
 
 export const bookSlice = createSlice({

@@ -5,11 +5,13 @@ import storage from 'redux-persist/lib/storage'
 
 import bookReducer from './book/bookSlice'
 import  preferenceReducer  from './preference/preferenceSlice'
+import cartReducer from './cart/cartSlice'
 
 
 const rootReducer = combineReducers({
   book: bookReducer,
-  preference: preferenceReducer
+  preference: preferenceReducer,
+  cart: cartReducer
 })
 
 const persistConfig = {

@@ -12,6 +12,7 @@ import Shop from './Shop.jsx'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
 import { store,persistor } from './store/store.js'
+import Cart from './pages/Cart.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/' element={<FrontEndLayout />}>
               <Route index element={<Home />} />
               <Route path='/shop' element={<Shop />} />
+              <Route path='/cart' element={<Cart />} />
             </Route>  
 
             <Route path='/admin' element={<Layout />}>
