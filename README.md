@@ -1,1 +1,1 @@
-https://ubiquitous-snickerdoodle-549098.netlify.app/
+https://classy-smakager-ad8c73.netlify.app
